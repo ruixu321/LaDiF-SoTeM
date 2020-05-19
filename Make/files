@@ -1,0 +1,4 @@
+version.Fver
+SoTeM_v7.C
+
+EXE = $(FOAM_USER_APPBIN)/SoTeM_v7

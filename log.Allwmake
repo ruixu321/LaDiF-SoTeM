@@ -1,0 +1,113 @@
++ ./installVersion.sh
+./version2 and /a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/wmake/rules/General//version2 are identical
++ touch fireFoam.C
++ wmake
+Making dependency list for source file fireFoam2.C
+could not open file stdio.h for source file fireFoam2.C due to No such file or directory
+could not open file createMesh.H for source file fireFoam2.C due to Too many open files
+could not open file createControl.H for source file fireFoam2.C due to Too many open files
+could not open file createFields.H for source file fireFoam2.C due to Too many open files
+could not open file createFieldRefs.H for source file fireFoam2.C due to Too many open files
+could not open file infoFieldsOutput.H for source file fireFoam2.C due to Too many open files
+could not open file createFvOptions.H for source file fireFoam2.C due to Too many open files
+could not open file initContinuityErrs.H for source file fireFoam2.C due to Too many open files
+could not open file createTimeControls.H for source file fireFoam2.C due to Too many open files
+could not open file compressibleCourantNo.H for source file fireFoam2.C due to Too many open files
+could not open file setInitialDeltaT.H for source file fireFoam2.C due to Too many open files
+could not open file readPyrolysisTimeControls.H for source file fireFoam2.C due to Too many open files
+could not open file readTimeControls.H for source file fireFoam2.C due to Too many open files
+could not open file solidRegionDiffusionNo.H for source file fireFoam2.C due to Too many open files
+could not open file setMultiRegionDeltaT.H for source file fireFoam2.C due to Too many open files
+could not open file setDeltaT.H for source file fireFoam2.C due to Too many open files
+could not open file rhoEqn.H for source file fireFoam2.C due to Too many open files
+could not open file UEqn.H for source file fireFoam2.C due to Too many open files
+could not open file YEEqnExt.H for source file fireFoam2.C due to Too many open files
+could not open file pEqn.H for source file fireFoam2.C due to Too many open files
+could not open file infoOutput.H for source file fireFoam2.C due to Too many open files
+Making dependency list for source file version.Fver
+sed -e 's/FIRE_FOAM_SHA1/5d60613d8755722c38103296d9f67a38112189dc/' -e 's/FIRE_FOAM_BUILD_TIME/Thu Feb 16 09:59:46 EST 2017/' version.Fver > version.C; g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I./Soot -I./include -I../fireFoam-dev/packages/regionModels/surfaceFilmModels/lnInclude -I../fireFoam-dev/packages/lagrangian/intermediateNew/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/regionModels/regionModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/regionModels/pyrolysisModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/finiteVolume/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/fvOptions/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/meshTools/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/sampling/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/transportModels/compressible/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/TurbulenceModels/turbulenceModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/TurbulenceModels/compressible/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/lagrangian/distributionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/specie/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solid/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/basic/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solidThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/chemistryModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solidChemistryModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/combustionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/solidProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/solidMixtureProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/liquidProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/liquidMixtureProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/thermophysicalFunctions/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/reactionThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/SLGThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/radiation/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/combustionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/lagrangian/basic/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/ODE/lnInclude -IlnInclude -I. -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OpenFOAM/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OSspecific/POSIX/lnInclude   -fPIC -c version.C -o Make/linux64GccDPInt32Opt/version.o; sleep 0;touch -t `./datecalc 2` version.Fver 
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I./Soot -I./include -I../fireFoam-dev/packages/regionModels/surfaceFilmModels/lnInclude -I../fireFoam-dev/packages/lagrangian/intermediateNew/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/regionModels/regionModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/regionModels/pyrolysisModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/finiteVolume/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/fvOptions/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/meshTools/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/sampling/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/transportModels/compressible/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/TurbulenceModels/turbulenceModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/TurbulenceModels/compressible/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/lagrangian/distributionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/specie/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solid/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/basic/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solidThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/chemistryModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solidChemistryModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/combustionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/solidProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/solidMixtureProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/liquidProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/liquidMixtureProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/thermophysicalFunctions/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/reactionThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/SLGThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/radiation/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/combustionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/lagrangian/basic/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/ODE/lnInclude -IlnInclude -I. -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OpenFOAM/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OSspecific/POSIX/lnInclude   -fPIC -c fireFoam2.C -o Make/linux64GccDPInt32Opt/fireFoam2.o
+In file included from ./createFields.H:71:0,
+                 from /a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OpenFOAM/lnInclude/postProcess.H:129,
+                 from fireFoam2.C:56:
+./readAdditionalThermo.H: In function 'int main(int, char**)':
+./readAdditionalThermo.H:59:14: warning: unused variable 'XEff' [-Wunused-variable]
+ const scalar XEff(thermo.lookupOrDefault<scalar>("XEff", 1));
+              ^
+In file included from /a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OpenFOAM/lnInclude/postProcess.H:129:0,
+                 from fireFoam2.C:56:
+./createFields.H:277:8: warning: unused variable 'qFuel' [-Wunused-variable]
+ scalar qFuel(singleMixture.qFuel().value());   // kvm
+        ^
+./createFields.H:295:23: warning: unused variable 'CO2' [-Wunused-variable]
+ const volScalarField& CO2 = *CO2Ptr; // kvm
+                       ^
+./createFields.H:302:8: warning: unused variable 'Wu_' [-Wunused-variable]
+ scalar Wu_ = singleMixture.speciesData()[fuelIndex].W(); // kvm
+        ^
+./createFields.H:304:8: warning: unused variable 'Hu_' [-Wunused-variable]
+ scalar Hu_ = singleMixture.speciesData()[fuelIndex].hc(); // kvm
+        ^
+In file included from ./createFields.H:348:0,
+                 from /a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OpenFOAM/lnInclude/postProcess.H:129,
+                 from fireFoam2.C:56:
+./createRTI.H:172:8: warning: unused variable 'RTI1_' [-Wunused-variable]
+ scalar RTI1_
+        ^
+./createRTI.H:176:8: warning: unused variable 'C1_' [-Wunused-variable]
+ scalar C1_
+        ^
+./createRTI.H:180:8: warning: unused variable 'Tact1_' [-Wunused-variable]
+ scalar Tact1_
+        ^
+./createRTI.H:184:8: warning: unused variable 'RTI2_' [-Wunused-variable]
+ scalar RTI2_
+        ^
+./createRTI.H:188:8: warning: unused variable 'C2_' [-Wunused-variable]
+ scalar C2_
+        ^
+./createRTI.H:192:8: warning: unused variable 'Tact2_' [-Wunused-variable]
+ scalar Tact2_
+        ^
+./createRTI.H:196:8: warning: unused variable 'RTI3_' [-Wunused-variable]
+ scalar RTI3_
+        ^
+./createRTI.H:200:8: warning: unused variable 'C3_' [-Wunused-variable]
+ scalar C3_
+        ^
+./createRTI.H:204:8: warning: unused variable 'Tact3_' [-Wunused-variable]
+ scalar Tact3_
+        ^
+./createRTI.H:208:8: warning: unused variable 'RTI4_' [-Wunused-variable]
+ scalar RTI4_
+        ^
+./createRTI.H:212:8: warning: unused variable 'C4_' [-Wunused-variable]
+ scalar C4_
+        ^
+./createRTI.H:216:8: warning: unused variable 'Tact4_' [-Wunused-variable]
+ scalar Tact4_
+        ^
+./createRTI.H:220:8: warning: unused variable 'RTI5_' [-Wunused-variable]
+ scalar RTI5_
+        ^
+./createRTI.H:224:8: warning: unused variable 'C5_' [-Wunused-variable]
+ scalar C5_
+        ^
+./createRTI.H:228:8: warning: unused variable 'Tact5_' [-Wunused-variable]
+ scalar Tact5_
+        ^
+In file included from createFields.H:71:0,
+                 from fireFoam2.C:63:
+readAdditionalThermo.H:59:14: warning: unused variable 'XEff' [-Wunused-variable]
+ const scalar XEff(thermo.lookupOrDefault<scalar>("XEff", 1));
+              ^
+In file included from fireFoam2.C:63:0:
+createFields.H:302:8: warning: unused variable 'Wu_' [-Wunused-variable]
+ scalar Wu_ = singleMixture.speciesData()[fuelIndex].W(); // kvm
+        ^
+createFields.H:304:8: warning: unused variable 'Hu_' [-Wunused-variable]
+ scalar Hu_ = singleMixture.speciesData()[fuelIndex].hc(); // kvm
+        ^
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I./Soot -I./include -I../fireFoam-dev/packages/regionModels/surfaceFilmModels/lnInclude -I../fireFoam-dev/packages/lagrangian/intermediateNew/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/regionModels/regionModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/regionModels/pyrolysisModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/finiteVolume/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/fvOptions/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/meshTools/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/sampling/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/transportModels/compressible/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/TurbulenceModels/turbulenceModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/TurbulenceModels/compressible/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/lagrangian/distributionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/specie/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solid/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/basic/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solidThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/chemistryModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/solidChemistryModel/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/combustionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/solidProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/solidMixtureProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/liquidProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/properties/liquidMixtureProperties/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/thermophysicalFunctions/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/reactionThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/SLGThermo/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/thermophysicalModels/radiation/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/combustionModels/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/lagrangian/basic/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/ODE/lnInclude -IlnInclude -I. -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OpenFOAM/lnInclude -I/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/src/OSspecific/POSIX/lnInclude   -fPIC -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt32Opt/version.o Make/linux64GccDPInt32Opt/fireFoam2.o -L/a/fs-3/export/home/deepthought2/amarcha1/OpenFOAM/OpenFOAM-dev/platforms/linux64GccDPInt32Opt/lib \
+	    -L/homes/amarcha1/OpenFOAM/amarcha1-dev/platforms/linux64GccDPInt32Opt/lib -lpatchFieldsFireFOAM -lcombustionModelsEDC -lgreyMeanAbsorptionEmission_FMG -ladditionalCloudFunctionObjectsFF -lsplashingModels 	 -lrtiSampling -lfvPatchFieldsPyrolysis -lfiniteVolume -lfvOptions -lmeshTools -lsampling -lspecie -lfluidThermophysicalModels -lsolidProperties -lsolidMixtureProperties -lthermophysicalFunctions -lreactionThermophysicalModels -lSLGThermo -lchemistryModel -lsolidChemistryModel -lcombustionModels -lradiationModels -llagrangian -lODE -lregionModels -lpyrolysisModels -lfieldFunctionObjects -lliquidProperties -L/homes/amarcha1/OpenFOAM/amarcha1-dev/platforms/linux64GccDPInt32Opt/lib -lsurfaceFilmModelsFF -lpyrolysisModels_FMG2.1 -lregionCouplingFF -llagrangianIntermediateFF -lnewInjectionModels -lRadiationBCs_FMG -lOpenFOAM -ldl  \
+	     -lm -o /homes/amarcha1/OpenFOAM/amarcha1-dev/platforms/linux64GccDPInt32Opt/bin/fireFoam2
